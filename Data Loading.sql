@@ -1,6 +1,6 @@
 // Creating external stage (create your own bucket)
 CREATE OR REPLACE STAGE SCD_DEMO.SCD2.customer_ext_stage
-    url='s3://dw-snowflake-course-darshil/stream_data'
+    url='s3://dw-course-ghayathri/stream_data'
     credentials=(aws_key_id='' aws_secret_key='');
    
 
